@@ -2,7 +2,7 @@ rs97-commander-sdl2 (DinguxCommander)
 
 Modify based on https://github.com/glebm/rs97-commander
 
-supports OGA, RGB10, and RK2020 devices only using ArkOS.  For the RG351P, use the rg351p branch.
+supports OGS device only using ArkOS.  For the RG351P, use the rg351p branch.  For OGA, RGB10, and RK2020, use the master branch.
 
 Build instructions (Works best in 32 bit Arm environment)
 ==================
