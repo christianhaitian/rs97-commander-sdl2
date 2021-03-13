@@ -7,7 +7,7 @@ PATH_DEFAULT ?= /roms
 PATH_DEFAULT_RIGHT ?= /roms
 
 # set variables for the OGS screen
-SCREENW := 854
+SCREENW := 838
 SCREENH := 480
 FONTSIZE := 11
 HEADERH := 17
