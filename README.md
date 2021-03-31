@@ -4,10 +4,10 @@ Modify based on https://github.com/glebm/rs97-commander
 
 Supports rg351p using ArkOS.  For OGA, RGB10, and RK2020, use master branch instead.  For the OGS, use the ogs branch instead.
 
-Build instructions (Works best in 32 bit Arm environment)
+Build instructions ~~(Works best in 32 bit Arm environment)~~
 ==================
 
-package requirements: SDL2 SDL2_image SDL2_gfx SDL2_ttf SDL2-dev SDL2_image-dev SDL2_gfx-dev SDL2_ttf-dev
+package requirements: SDL2 SDL2_image SDL2_gfx SDL2_ttf SDL2-dev SDL2_image-dev SDL2_gfx-dev SDL2_ttf-dev libsdl2-gfx-dev
 
 git clone https://github.com/christianhaitian/rs97-commander-sdl2.git -b rg351p \
 cd rs97-commander-sdl2 \
