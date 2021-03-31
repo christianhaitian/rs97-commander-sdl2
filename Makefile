@@ -7,17 +7,18 @@ PATH_DEFAULT ?= /roms
 PATH_DEFAULT_RIGHT ?= /roms
 
 # set variables for the OGA screen
-SCREENW := 480
-SCREENH := 320
-FONTSIZE := 10
-HEADERH := 17
-H_PADDING_TOP := 3
-FOOTERH := 13
-F_PADDING_TOP := 1
-LINEH := 15
+SCREENW := 628
+SCREENH := 480
+FONTSIZE := 13
 FONTTOUSE := $(RESDIR)/Fiery_Turk.ttf
-VIEWER_LINE_H := 13
-
+H_PADDING_TOP := 2
+F_PADDING_TOP := 2
+MAXLINES := 16
+LINESPACE := $(shell echo $$(($(SCREENH)/$(MAXLINES))))
+HEADERH := $(LINESPACE)
+FOOTERH := $(LINESPACE)
+LINEH := $(LINESPACE)
+VIEWER_LINE_H := $(LINESPACE)
 
 SRCS=$(wildcard ./*.cpp)
 OBJS=$(patsubst %cpp,%o,$(SRCS))
