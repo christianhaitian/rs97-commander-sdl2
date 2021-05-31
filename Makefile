@@ -9,8 +9,8 @@ PATH_DEFAULT_RIGHT ?= /roms
 # set variables for the OGA screen
 SCREENW := 628
 SCREENH := 480
-FONTSIZE := 13
-FONTTOUSE := $(RESDIR)/Fiery_Turk.ttf
+FONTSIZE := 23
+FONTTOUSE := $(RESDIR)/bold.ttf
 H_PADDING_TOP := 2
 F_PADDING_TOP := 2
 MAXLINES := 16
