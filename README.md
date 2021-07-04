@@ -2,14 +2,14 @@ rs97-commander-sdl2 (DinguxCommander)
 
 Modify based on https://github.com/glebm/rs97-commander
 
-supports OGA, RGB10, and RK2020 devices only using ArkOS.  For the RG351P, use the rg351p branch.  For the RG351V, use the rg351v branch.  For the OGS, use the ogs branch.
+supports CHI device only using ArkOS.  For the RG351P, use the rg351p branch.  For the RG351V, use the rg351v branch.  For the OGS, use the ogs branch.  For the OGA, RGB10, and RK2020, use the Master branch.
 
 Build instructions ~~(Works best in 32 bit Arm environment)~~
 ==================
 
 package requirements: SDL2 SDL2_image SDL2_gfx SDL2_ttf SDL2-dev SDL2_image-dev SDL2_gfx-dev SDL2_ttf-dev libsdl2-gfx-dev
 
-git clone https://github.com/christianhaitian/rs97-commander-sdl2.git \
+git clone https://github.com/christianhaitian/rs97-commander-sdl2.git -b chi \
 cd rs97-commander-sdl2 \
 make (or use make -j2 or -j3 if you have the additional core and memory to handle this to speed up the build)
 
